@@ -2,7 +2,7 @@
 $(document).ready(function(){
     console.log("plesase")
     // navbar scrolling
-    $("#nav-placeholder").load("templates/nav.html", function() {
+    $("#nav-placeholder").load("docs/nav.html", function() {
         console.log($('.navbar').outerHeight());
         $('#home').css('padding-top', $('.navbar').outerHeight() + 'px')
         if ($('.smart-scroll').length > 0) { // check if element exists
